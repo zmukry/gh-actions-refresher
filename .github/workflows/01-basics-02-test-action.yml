@@ -1,5 +1,7 @@
 name: Test Project
-on: 
+on:
+  workflow_dispatch:
+
   push:
     branches:
       - main
