@@ -1,5 +1,12 @@
 name: Test Project
-on: push
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - "01-basics/react-basic/**"
+
+
 jobs:
   test:
     runs-on: ubuntu-latest
